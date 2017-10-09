@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>pt.andre</groupId>
-	<artifactId>jaxb-wsdl-client</artifactId>
+	<artifactId>jaxb-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jaxb-wsdl-client</name>
+	<name>jaxb-client</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -47,10 +47,10 @@
 							<sourceRoot>${basedir}/src/main/generated</sourceRoot>
 							<wsdlOptions>
 								<wsdlOption>
-									<!-- <wsdl>http://www.webservicex.com/globalweather.asmx?wsdl</wsdl> -->
-									<wsdl>${basedir}/src/main/resources/MathService.wsdl</wsdl>
+									<!--<wsdl>http://localhost:8080/ws/movie.wsdl</wsdl>-->
+									<wsdl>${basedir}/src/main/resources/movie.wsdl</wsdl>
 									<extraargs>
-										<extraarg>-all</extraarg>
+										<extraarg>-client</extraarg>
 									</extraargs>
 								</wsdlOption>
 							</wsdlOptions>

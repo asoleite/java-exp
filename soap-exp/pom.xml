@@ -5,16 +5,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>pt.andre</groupId>
-	<artifactId>java-exp</artifactId>
+	<artifactId>soap-exp</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
-	<description>Java experiments base pom</description>
+	<description>Soap experiments base pom</description>
 
 
 	<modules>
-		<module>soap-exp</module>
+		<module>spring-server</module>
+		<module>jaxb-client</module>
 	</modules>		
 	
 </project>
